@@ -1,7 +1,7 @@
 
 import streamlit as st
 import os
-import openai
+
 import PyPDF2
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
